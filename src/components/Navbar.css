@@ -1,0 +1,76 @@
+ 
+ /* navbar */
+ #a1{
+    color: brown;
+    font-weight: bold;
+   
+ }
+ .nav{
+  background-image: url("wallpaper.jpg");
+  
+ }
+
+
+
+/* about */
+.dlwcv{
+  position: absolute;
+  top:550px;
+  left: 650px;
+ 
+}
+
+/* myproject */
+.height{
+  height: 500px;
+  color:rgb(219, 24, 24);
+}
+#p1{
+  display: flex;
+  justify-content: center;
+}
+#p2{
+  color: #390718;
+  font-size:larger;
+  font-style: italic;
+}
+#p3{
+  color: #390718;
+  font-size:larger;
+  font-style: italic;
+
+}
+
+/* contactas */
+#sendmesg{
+  position: absolute;
+  top:'200px'
+}
+
+
+/* contactAS */
+/* .btn10{
+  position: absolute;
+  top: 1370px;
+  left: 500px;
+  border-radius: 20px;
+  background-color: #ff1361;
+  width: 200px;
+} */
+#c1{
+  color: #ff1361;
+ display: flex;
+ justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
