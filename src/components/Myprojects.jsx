@@ -7,7 +7,7 @@ import "./Navbar.css"
 function Myprojects() {
   return (
     
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
             <div className="col-md-12 height">
             <div className="col-md-12">

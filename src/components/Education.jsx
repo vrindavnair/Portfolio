@@ -9,8 +9,8 @@ import { BiSolidCertification } from "react-icons/bi";
 
 function Education() {
     return (
-        <div className="container">
-            <div className="row" style={{height:'700px'}}>
+        <div className="container-fluid">
+            <div className="row" style={{ backgroundColor:'rgb(190,225,230)'}}>
                 <div className="col-md-12">
                     <h1 style={{ display: 'flex', justifyContent: 'center', color: '#ff1361' }}> Education</h1>
                     <div className="row">

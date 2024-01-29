@@ -10,15 +10,13 @@ import { Outlet } from 'react-router-dom'
 function Pages() {
   return (
     <div>
-      <BasicExample/>
+      
       <Body/>
       <About/>
-     <Education/>
+      <Education/>
       <Myprojects/>
       <ContactAs/>
-      <div>
-        
-      </div>
+    
     </div>
    
   )

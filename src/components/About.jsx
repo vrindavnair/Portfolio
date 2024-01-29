@@ -1,15 +1,13 @@
 import React from "react";
 // import Image from "react-bootstrap/esm/Image";
 import "./Navbar.css"
-
-
-
+import cv from "../assets/VRresume3.pdf"
 
     function About(){
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
-                <div className="col-md-12"style={{height:'600px'}}>
+                <div className="col-md-12"style={{backgroundColor:'rgb(250,210,225)'}} >
                     <div className="row">
                         <div className="col-md-6">
                         <img src="about2.jpg" className='img-fluid' />
@@ -37,7 +35,8 @@ import "./Navbar.css"
                 <p style={{color:'#E75480', fontStyle:'italic'}}>Address :  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Plamparambil House   </p>
                 <p style={{color:'#E75480', fontStyle:'italic'}}>Contact Number :  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9544230744 </p>
                 <p style={{color:'#E75480', fontStyle:'italic'}}>Email :  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08vrindavnair@gmail.com </p>
-                {/* <button className="btn btn-danger dlwcv">Download CV</button> */}
+                <button type="button" id="dlw">
+                    <a href={cv} download style={{textDecoration:'none',color:"white"}} >Download CV</a></button>
                                 
 
                               

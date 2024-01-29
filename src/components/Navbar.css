@@ -1,28 +1,35 @@
  
- /* navbar */
- #a1{
-    color: brown;
-    font-weight: bold;
-   
+ .navbar{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap:70px;
  }
- .nav{
-  background-image: url("wallpaper.jpg");
-  
+ .active{
+  color: aliceblue;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
  }
+
 
 
 
 /* about */
-.dlwcv{
-  position: absolute;
-  top:550px;
-  left: 650px;
- 
+#dlw{
+  background-color: #ff1361;
+  color: aliceblue;
+  cursor: pointer;
+  border: 2px solid #390718;
+  border-radius: 10px;
 }
+
 
 /* myproject */
 .height{
   height: 500px;
+  background-color: rgb(203,209,229);
   color:rgb(219, 24, 24);
 }
 #p1{
@@ -41,22 +48,14 @@
 
 }
 
-/* contactas */
-#sendmesg{
-  position: absolute;
-  top:'200px'
-}
+
+
 
 
 /* contactAS */
-/* .btn10{
-  position: absolute;
-  top: 1370px;
-  left: 500px;
-  border-radius: 20px;
-  background-color: #ff1361;
-  width: 200px;
-} */
+
+
+  
 #c1{
   color: #ff1361;
  display: flex;
@@ -64,6 +63,11 @@
 }
 
 
+/* .card{
+  border-radius: 60px 70px 40px 140px;
+} */
+
+ 
 
 
 

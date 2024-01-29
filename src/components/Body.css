@@ -5,15 +5,8 @@
     height: 500px;
    
   }
-/* body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    /* background: #343F4F; */
-  
-    /* software effect */
-  /* #sf{
+
+   #sf{
     position: absolute;
     top:250px;
     left:80px;
@@ -53,16 +46,16 @@
   
   /* ANIMATION */
   
-  /* .a1{
+  .a1{
   
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
     width: 100vw;
-  } */
+  } 
   
-  /* .animate
+   .animate
   {
      text-transform: uppercase;
     background-image: linear-gradient(
@@ -71,9 +64,9 @@
       #9308a2 29%,
       #ff1361 67%,
       #fff800 100%
-    ); */
-    /* background-size: auto auto; */
-    /* background-clip: border-box;
+    ); 
+     background-size: auto auto; 
+     background-clip: border-box;
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
@@ -93,22 +86,37 @@
     to {
       background-position: 200% center;
     }
-  } */
+  } 
 
 
 
 
 /* button effect */
+#hire {
+  position: absolute;
+  left: calc(30% - 3em); 
+   top: calc(60% - 2em);
+   height: 4em;
+  width: 7em;
+   background-color: #ff1361;
+   border: none;
+  border-radius: 10px;
+  color: #fff; 
+  font-style: oblique;
+  font-weight: bolder;
+  color:white ;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+  animation: wiggle 2s linear infinite;
+} 
 
 
-  /* #btn1{
-    animation: wiggle 2s linear infinite;
-    color: #fff;
-   
-} */
+ 
+       
+
 
 /* Keyframes */
-/* @keyframes wiggle {
+@keyframes wiggle {
   0%, 7% {
     transform: rotateZ(0);
   }
@@ -130,24 +138,5 @@
   40%, 100% {
     transform: rotateZ(0);
   } 
-}  */
+} 
    
-  /* button {
-    position: absolute;
-    left: calc(30% - 3em); 
-     top: calc(60% - 2em);
-
-    height: 4em;
-    width: 7em;
-    background: #444;
-     background: linear-gradient(top, #555, #333); 
-    border: none;
-    border-top: 3px solid orange;
-    border-radius: 0 0 0.2em 0.2em;
-    color: #fff; 
-     font-family: Helvetica, Arial, Sans-serif;
-    color:white ;
-    font-size: 1em;
-    transform-origin: 50% 5em;
-  
-  }  */
