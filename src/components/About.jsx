@@ -1,5 +1,4 @@
 import React from "react";
-// import Image from "react-bootstrap/esm/Image";
 import "./Navbar.css"
 import cv from "../assets/VRresume3.pdf"
 
